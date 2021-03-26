@@ -2,7 +2,6 @@ package com.res.ticketplease.Classes;
 
 import com.google.firebase.database.DatabaseReference;
 import com.res.ticketplease.Config.ConfigFirebase;
-import com.res.ticketplease.Config.FirebaseUser;
 
 public class Participante  {
 
