@@ -3,4 +3,14 @@
     <string name="ajuda">Ajuda</string>
     <string name="part_rec">Esqueci a senha</string>
     <string name="registro">Não possui cadastro?</string>
+    <string name="cadPartNome">Nome</string>
+    <string name="cadPartCPF">CPF</string>
+    <string name="cadPartEmail">Email</string>
+    <string name="cadPartSenha">Senha</string>
+    <string name="cadPartRepetirSenha">Repetir Senha</string>
+    <string name="cadOrgNome">Nome da Empresa/Universidade</string>
+    <string name="cadOrgEndereco">Endereço</string>
+    <string name="cadOrgEmail">Email</string>
+    <string name="cadOrgSenha">Senha</string>
+    <string name="cadOrgRepetirSenha">Repetir Senha</string>
 </resources>
