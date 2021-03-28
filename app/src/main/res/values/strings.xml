@@ -13,4 +13,11 @@
     <string name="cadOrgEmail">Email</string>
     <string name="cadOrgSenha">Senha</string>
     <string name="cadOrgRepetirSenha">Repetir Senha</string>
+    <string name="homeOrgNovoEvento">Novo Evento</string>
+    <string name="homeOrgListaEvento">Lista de Eventos</string>
+    <string name="novoEventoNome">Nome do Evento</string>
+    <string name="novoEventoLocal">Local do Evento</string>
+    <string name="novoEventoData">Data do Evento</string>
+    <string name="novoEventoHorario">Horário do Evento</string>
+    <string name="novoEventoParticipantes">Máximo de Participantes</string>
 </resources>

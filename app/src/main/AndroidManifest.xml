@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TicketPlease">
-        <activity android:name=".Views.RecuperarSenha"></activity>
+        <activity android:name=".Views.NovoEvento"
+            android:parentActivityName=".Views.HomeOrg"></activity>
+        <activity
+            android:name=".Views.RecuperarSenha"
+            android:parentActivityName=".Views.MainActivity" />
         <activity
             android:name=".Views.CadPart"
             android:parentActivityName=".Views.LoginParticipantes" />
