@@ -128,32 +128,34 @@
         tools:layout_editor_absoluteX="95dp">
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/homeOrgNomeEvento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text="Palestra sobre mecanica quantica" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
-            android:text="Predio 10 - Sala 35" />
+            android:gravity="center" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/homeOrgLocalEvento"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="05/10/2021"
-            android:layout_margin="5dp"/>
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/homeOrgDataEvento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="8:00 - 16:00"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/homeOrgHorarioEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
     </TableRow>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

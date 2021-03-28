@@ -17,7 +17,9 @@ public class Evento {
         DatabaseReference firebaseRef = ConfigFirebase.getFirebaseDatabase();
         DatabaseReference evento = firebaseRef.child("eventos").child(getNome());
         DatabaseReference listEventos = firebaseRef.child("organizadores").child(userID).child("eventos").child(getNome());
+        DatabaseReference ultimoEvento = firebaseRef.child("organizadores").child(userID).child("ultimo");
 
+        ultimoEvento.setValue(getNome());
         evento.setValue(this);
         listEventos.setValue(this);
     }
