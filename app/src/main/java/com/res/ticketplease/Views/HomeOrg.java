@@ -22,7 +22,7 @@ import com.res.ticketplease.R;
 
 public class HomeOrg extends AppCompatActivity {
 
-    private String identificadorUsuario, ultimoEvento;
+    private String identificadorUsuario;
     private DatabaseReference dataRef;
     private TextView nome, endereco, nomeEvento, localEvento, dataEvento, horarioEvento;
     private Button novoEvento;

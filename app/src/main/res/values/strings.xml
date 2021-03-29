@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TicketPlease</string>
+    <string name="app_name">Ticket Please</string>
     <string name="ajuda">Ajuda</string>
     <string name="part_rec">Esqueci a senha</string>
     <string name="registro">Não possui cadastro?</string>
