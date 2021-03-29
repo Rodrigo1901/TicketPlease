@@ -25,8 +25,6 @@ public class HomeOrg extends AppCompatActivity {
     private String identificadorUsuario, ultimoEvento;
     private DatabaseReference dataRef;
     private TextView nome, endereco, nomeEvento, localEvento, dataEvento, horarioEvento;
-    private Organizador organizador;
-    private Evento evento;
     private Button novoEvento;
 
     @Override

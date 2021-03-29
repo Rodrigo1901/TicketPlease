@@ -87,11 +87,13 @@ public class LoginOrganizadores extends AppCompatActivity {
 
     }
 
+    /*
     @Override
     protected void onStart() {
         super.onStart();
         verificarUsuarioLogado();
     }
+     */
 
     public void validarLogin() {
 

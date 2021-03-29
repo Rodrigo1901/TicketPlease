@@ -86,11 +86,13 @@ public class LoginParticipantes extends AppCompatActivity {
         });
     }
 
+    /*
     @Override
     protected void onStart() {
         super.onStart();
         verificarUsuarioLogado();
     }
+     */
 
     public void validarLogin() {
 
